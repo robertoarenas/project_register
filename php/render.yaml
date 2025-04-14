@@ -1,0 +1,5 @@
+services:
+  -type: web
+  name: mishopet
+  env: .
+  plan: free
