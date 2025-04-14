@@ -1,5 +1,5 @@
 services:
   -type: web
-  name: mishopet
+  name: login
   env: .
   plan: free
