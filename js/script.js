@@ -6,8 +6,4 @@ document.getElementById("registerForm").addEventListener("submit", function(e) {
         body: formData
     })
     .then(res => res.text())
-    .then(data => {
-        if(data === "success") alert("Registered successfully!");
-        else alert("Error: " + data);
-    });
 });
